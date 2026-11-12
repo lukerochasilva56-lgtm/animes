@@ -1,7 +1,7 @@
-# animes
+# animes - Jujutsu Kaisen (Batalha dos Feiticeiros)
 tempo livre e criações de sites
-<!DOCTYPE html>
 <html lang="pt-BR">
+<head>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
