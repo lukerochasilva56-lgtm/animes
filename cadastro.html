@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cadastro de Fans · Jujutsu Kaisen</title>
+<style>*{box-sizing:border-box}body{margin:0;font-family:"Trebuchet MS",system-ui,sans-serif;color:#eef0ff;background:linear-gradient(160deg,#0a0a1c,#1a0b24);min-height:100vh}
+main{max-width:520px;margin:0 auto;padding:28px 20px}h1{color:#ff2d4a;border-left:6px solid #2d8bff;padding-left:12px;font-size:1.7rem}
+label{display:block;margin:14px 0 4px}input,select,textarea{width:100%;padding:10px;border-radius:8px;border:2px solid #2d8bff;background:#12122a;color:#fff;font:inherit}
+button{margin-top:18px;padding:12px 22px;border:0;border-radius:10px;color:#fff;font-weight:700;font-size:1rem;background:linear-gradient(90deg,#ff2d4a,#2d8bff);cursor:pointer}
+a{color:#6aaaff}#ok{display:none;margin-top:18px;padding:12px;border:2px solid #ff2d4a;border-radius:10px}</style>
+</head>
+<body><main>
+<h1>Formulário de Cadastro de Fans</h1>
+<form id="f">
+<label for="n">Nome</label><input id="n" required>
+<label for="e">E-mail</label><input id="e" type="email" required>
+<label for="p">Personagem favorito</label><select id="p"><option>Yuji Itadori</option><option>Megumi Fushiguro</option><option>Nobara Kugisaki</option><option>Satoru Gojo</option><option>Ryomen Sukuna</option><option>Yuta Okkotsu</option></select>
+<label for="m">Por que você gosta de Jujutsu Kaisen?</label><textarea id="m" rows="4"></textarea>
+<button type="submit">Enviar</button>
+</form>
+<p id="ok">Cadastro enviado! Obrigado por fazer parte dos fãs de Jujutsu Kaisen.</p>
+<p><a href="index.html">← Voltar</a></p>
+</main>
+<script>document.getElementById('f').addEventListener('submit',function(e){e.preventDefault();this.style.display='none';document.getElementById('ok').style.display='block'})</script>
+</body></html>
