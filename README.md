@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+Jujutsu kaisen (Batalha dos feiticeiros)
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
